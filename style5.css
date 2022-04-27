@@ -1,0 +1,21 @@
+.tem{
+            
+   font-family: monospace;
+   display: grid;
+   grid-template-columns: 60% 34%;
+   grid-column-gap:1em;
+   grid-row-gap:1em;
+   padding: 50px;
+}
+.tem > div{
+  background: rgb(243, 186, 229);
+  padding: 1em;
+}
+.tem > div:nth-child(odd){
+  background: rgb(255, 206, 206);
+}
+.chi{
+  margin-left: 200px;
+  margin-top: 20px;
+
+}
